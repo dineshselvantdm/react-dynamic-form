@@ -1,4 +1,5 @@
 import React from 'react';
+import FormData from './FormData';
 
 class Flexi extends React.Component {
   constructor(props) {
@@ -12,9 +13,13 @@ class Flexi extends React.Component {
   };
 
   render() {
+    console.log(this.props);
+    const { items } = this.props.config;
     return (
-      <form>
-        {/* Do your stuff here */}
+      <form>  
+        {
+          <FormData items={items}/>
+        }
         <button onClick={this.onSubmit} />
       </form>
     );

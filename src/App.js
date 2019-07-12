@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Flexi from "./Flexi";
-
 class App extends Component {
   render() {
     return (
@@ -11,6 +10,7 @@ class App extends Component {
         </header>
           <Flexi
             onSubmit={() => {}}
+            config={flexiConfig}
           />
       </div>
     );
