@@ -10,7 +10,6 @@ class App extends Component {
         </header>
           <Flexi
             onSubmit={() => {}}
-            config={flexiConfig}
           />
       </div>
     );

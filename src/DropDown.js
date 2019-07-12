@@ -1,7 +1,7 @@
 import React from 'react';
 const DropDown = (props) => {
   return(
-    <div className="form-group">
+    <div>
       <label htmlFor={props.name}> {props.label} </label>
       <select
         name={props.name}
